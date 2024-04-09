@@ -1,0 +1,337 @@
+<body>
+<div class="headerwrapperdiv">
+<div class="pageheaderdiv1">
+<a href="#main_content" onmouseover="window.status='Go to Main Content'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Go to Main Content'; return true" onblur="window.status=''; return true" class="skiplinks">Go to Main Content</a>
+<h1>Centennial College Web Self Services</h1></div><div class="headerlinksdiv">
+<span class="pageheaderlinks2">
+<map name="Module_Navigation_Links_H" title="Module Navigation Links">
+<p>
+<a href="#skip_Module_Navigation_Links_H" onmouseover="window.status='Skip Module Navigation Links'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Skip Module Navigation Links'; return true" onblur="window.status=''; return true" class="skiplinks">Skip Module Navigation Links</a>
+</p><table class="plaintable" summary="This is main table for displaying Tab Items." width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td class="pldefault">
+<table class="plaintable" summary="This table displays Tab Items." cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td class="taboff" height="22">
+<a href="/prod/twbkwbis.P_GenMenu?name=bmenu.P_GenMnu" onmouseover="window.status='New Personal Information'; return true" onmouseout="window.status=''; return true" onfocus="window.status='New Personal Information'; return true" onblur="window.status=''; return true">Personal Information</a>
+</td>
+<td class="bgtaboff" height="22" valign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" alt="Tab Corner Right" class="headerImg" title="Tab Corner Right" name="web_tab_corner_right" hspace="0" vspace="0" border="0" height="20" width="8">
+</td>
+<td class="tabon" height="22">
+<a href="/prod/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu" onmouseover="window.status='Student Services &amp; Financial Aid'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Student Services &amp; Financial Aid'; return true" onblur="window.status=''; return true">Student Services</a>
+</td>
+<td class="bgtabon" height="22" valign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" alt="Tab Corner Right" class="headerImg" title="Tab Corner Right" name="web_tab_corner_right" hspace="0" vspace="0" border="0" height="20" width="8">
+</td>
+<td class="tabon" height="22">
+<a href="bwskflib.P_SelDefTerm" onmouseover="window.status='Change Term'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Change Term'; return true" onblur="window.status=''; return true">Change Term</a>
+</td>
+<td class="bgtabon" height="22" valign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" alt="Tab Corner Right" class="headerImg" title="Tab Corner Right" name="web_tab_corner_right" hspace="0" vspace="0" border="0" height="20" width="8">
+</td>
+<td class="taboff" height="22">
+<a href="/prod/twbkwbis.P_GenMenu?name=bmenu.P_BsacMnu" onmouseover="window.status='Student Awards and Financial Aid'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Student Awards and Financial Aid'; return true" onblur="window.status=''; return true">Student Awards and Financial Aid</a>
+</td>
+<td class="bgtaboff" height="22" valign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" alt="Tab Corner Right" class="headerImg" title="Tab Corner Right" name="web_tab_corner_right" hspace="0" vspace="0" border="0" height="20" width="8">
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td class="bgtabon" width="100%" colspan="2"><img src="/wtlgifs/web_transparent.gif" alt="Transparent Image" class="headerImg" title="Transparent Image" name="web_transparent" hspace="0" vspace="0" border="0" height="3" width="10"></td></tr></tbody></table>
+</map>
+</span>
+<a name="skip_Module_Navigation_Links_H"></a>
+</div>
+<table class="plaintable" summary="This table displays Menu Items and Banner Search textbox." width="100%">
+<tbody><tr>
+<td class="pldefault">
+<div class="headerlinksdiv2">
+<form action="/prod/twbksrch.P_ShowResults" method="post">
+Search
+<span class="fieldlabeltextinvisible"><label for="keyword_in_id"><span class="fieldlabeltext">Search</span></label></span>
+<input type="text" name="KEYWRD_IN" size="20" maxlength="65" id="keyword_in_id">
+<input type="submit" value="Go">
+</form>
+</div>
+</td>
+<td class="pldefault"><p class="rightaligntext" p="">
+<span class="pageheaderlinks">
+<a href="/prod/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3" accesskey="2" class="submenulinktext2">SITE MAP</a>
+|
+<a href="/prod/twbkfrmt.P_DispHelp?pagename_in=bwskogrd.P_ViewGrde" accesskey="H" onclick="popup = window.open('/prod/twbkfrmt.P_DispHelp?pagename_in=bwskogrd.P_ViewGrde', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false" target="_blank" onmouseover="window.status='';  return true" onmouseout="window.status=''; return true" onfocus="window.status='';  return true" onblur="window.status=''; return true" class="submenulinktext2">HELP</a>
+|
+<a href="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</a>
+</span>
+</p></td>
+</tr>
+</tbody></table>
+</div>
+<div class="pagetitlediv">
+<table class="plaintable" summary="This table displays title and static header displays." width="100%">
+<tbody><tr>
+<td class="pldefault">
+<h2>Final Grades</h2>
+</td>
+<td class="pldefault">
+&nbsp;
+</td>
+<td class="pldefault"><p class="rightaligntext" p="">
+</p><div class="staticheaders">
+301175211 Leto M. Koker<br>
+Fall 2021<br>
+Jan 10,2022 10:30 pm<br>
+</div>
+</td>
+</tr>
+<tr>
+<td class="bg3" width="100%" colspan="3"><img src="/wtlgifs/web_transparent.gif" alt="Transparent Image" class="headerImg" title="Transparent Image" name="web_transparent" hspace="0" vspace="0" border="0" height="3" width="10"></td>
+</tr>
+</tbody></table>
+<a name="main_content"></a>
+</div>
+<div class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+
+<table class="datadisplaytable" summary="This layout table contains the users curriculum information for the specified term."><caption class="captiontext">Student Information</caption>
+<tbody><tr>
+<th colspan="2" class="ddlabel" scope="row">Current Program</th>
+</tr>
+<tr>
+<td colspan="2" class="dddefault">Ontario College Adv. Diploma</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">Level:</th>
+<td colspan="1" class="dddefault">Post Secondary</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">Program:</th>
+<td colspan="1" class="dddefault">Software Eng Techy - AI ODL</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">Admit Term:</th>
+<td colspan="1" class="dddefault">Winter 2021</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">Admit Type:</th>
+<td colspan="1" class="dddefault">OCAS Module</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">Catalog Term:</th>
+<td colspan="1" class="dddefault">Winter 2021</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">College:</th>
+<td colspan="1" class="dddefault">Eng. Tech. &amp; Applied Science</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">Campus:</th>
+<td colspan="1" class="dddefault">Canada</td>
+</tr>
+<tr>
+<th colspan="1" class="ddlabel" scope="row">Major:</th>
+<td colspan="1" class="dddefault">Software Eng Techy - AI ODL</td>
+</tr>
+<tr>
+<th class="ddlabel" scope="row">Academic Standing: </th>
+<td class="dddefault">Probationary Academic Standing</td>
+</tr>
+</tbody></table>
+<br>
+<table class="datadisplaytable" summary="This table displays the final
+grade for a class as well as the associated term, course, section, campus,
+credits, course title, attempted hours, earned hours, grade point average,
+and quality points for a level."><caption class="captiontext">Post Secondary Course work</caption>
+<tbody><tr>
+<th class="ddheader" scope="col"><acronym title="Course Reference Number">CRN</acronym></th>
+<th class="ddheader" scope="col">Subject</th>
+<th class="ddheader" scope="col">Course</th>
+<th class="ddheader" scope="col">Section</th>
+<th class="ddheader" scope="col">Course Title</th>
+<th class="ddheader" scope="col">Campus</th>
+<th class="ddheader" scope="col">Final Grade</th>
+<th class="ddheader" scope="col">Attempted</th>
+<th class="ddheader" scope="col">Earned</th>
+<th class="ddheader" scope="col"><p class="rightaligntext"><acronym title="Grade Point Average">GPA</acronym> Hours</p></th>
+<th class="ddheader" scope="col"><p class="rightaligntext">Quality Points</p></th>
+<td class="dddead">&nbsp;</td>
+</tr>
+<tr>
+<td class="dddefault">93428</td>
+<td class="dddefault">COMM</td>
+<td class="dddefault">170</td>
+<td class="dddefault">004</td>
+<td class="dddefault">College Communications 2</td>
+<td class="dddefault">Progress Campus</td>
+<td class="dddefault">A</td>
+<td class="dddefault"><p class="rightaligntext">    3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              4.000</p></td>
+<td class="dddead">&nbsp;</td>
+</tr>
+<tr>
+<td class="dddefault">93608</td>
+<td class="dddefault">COMP</td>
+<td class="dddefault">100</td>
+<td class="dddefault">005</td>
+<td class="dddefault">Programming 1</td>
+<td class="dddefault">Progress Campus</td>
+<td class="dddefault">B+</td>
+<td class="dddefault"><p class="rightaligntext">    4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              3.500</p></td>
+<td class="dddead">&nbsp;</td>
+</tr>
+<tr>
+<td class="dddefault">93660</td>
+<td class="dddefault">COMP</td>
+<td class="dddefault">120</td>
+<td class="dddefault">005</td>
+<td class="dddefault">Software Engineering Fundament</td>
+<td class="dddefault">Progress Campus</td>
+<td class="dddefault">B</td>
+<td class="dddefault"><p class="rightaligntext">    4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              3.000</p></td>
+<td class="dddead">&nbsp;</td>
+</tr>
+<tr>
+<td class="dddefault">93688</td>
+<td class="dddefault">COMP</td>
+<td class="dddefault">213</td>
+<td class="dddefault">005</td>
+<td class="dddefault">Web Interface Design</td>
+<td class="dddefault">Progress Campus</td>
+<td class="dddefault">A</td>
+<td class="dddefault"><p class="rightaligntext">    4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              4.000</p></td>
+<td class="dddead">&nbsp;</td>
+</tr>
+<tr>
+<td class="dddefault">95029</td>
+<td class="dddefault">GNED</td>
+<td class="dddefault">229</td>
+<td class="dddefault">001</td>
+<td class="dddefault">Modern Africa: Perspectives</td>
+<td class="dddefault">Distance Online</td>
+<td class="dddefault">B</td>
+<td class="dddefault"><p class="rightaligntext">    3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        4.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              3.000</p></td>
+<td class="dddead">&nbsp;</td>
+</tr>
+<tr>
+<td class="dddefault">95955</td>
+<td class="dddefault">MATH</td>
+<td class="dddefault">175</td>
+<td class="dddefault">005</td>
+<td class="dddefault">Functions &amp; Number Systems</td>
+<td class="dddefault">Progress Campus</td>
+<td class="dddefault">C+</td>
+<td class="dddefault"><p class="rightaligntext">    3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        3.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              2.500</p></td>
+<td class="dddead">&nbsp;</td>
+</tr>
+</tbody></table>
+<br>
+<table class="datadisplaytable" summary="This layout table displays the users current, cumulative,
+transfer and overall Grade point average information."><caption class="captiontext">Post Secondary Summary</caption>
+<tbody><tr>
+<td colspan="2" class="dddead">&nbsp;</td>
+<th class="ddheader" scope="col">Attempted</th>
+<th class="ddheader" scope="col">Earned</th>
+<th class="ddheader" scope="col"><acronym title="Grade Point Average">GPA</acronym> Hours</th>
+<th class="ddheader" scope="col">Quality Points</th>
+<th class="ddheader" scope="col"><acronym title="Grade Point Average">GPA</acronym></th>
+</tr>
+<tr>
+<th colspan="2" class="ddlabel" scope="row">Current Term: </th>
+<td class="dddefault"><p class="rightaligntext">       21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">       21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              20.000</p></td>
+<td class="dddefault"><p class="rightaligntext">                     3.333</p></td>
+</tr>
+<tr>
+<th colspan="2" class="ddlabel" scope="row">Cumulative: </th>
+<td class="dddefault"><p class="rightaligntext">       21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">       21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              20.000</p></td>
+<td class="dddefault"><p class="rightaligntext">                     3.333</p></td>
+</tr>
+<tr>
+<th colspan="2" class="ddlabel" scope="row">Transfer: </th>
+<td class="dddefault"><p class="rightaligntext"> 0.000</p></td>
+<td class="dddefault"><p class="rightaligntext"> 0.000</p></td>
+<td class="dddefault"><p class="rightaligntext"> 0.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              0.000</p></td>
+<td class="dddefault"><p class="rightaligntext">                     0.000</p></td>
+</tr>
+<tr>
+<th colspan="2" class="ddlabel" scope="row">Overall: </th>
+<td class="dddefault"><p class="rightaligntext">       21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">        0.000</p></td>
+<td class="dddefault"><p class="rightaligntext">       21.000</p></td>
+<td class="dddefault"><p class="rightaligntext">              20.000</p></td>
+<td class="dddefault"><p class="rightaligntext">                     3.333</p></td>
+</tr>
+</tbody></table>
+
+<!--  ** START OF twbkwbis.P_CloseDoc **  -->
+<table class="plaintable" summary="This is table displays line separator at end of the page." width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="bgtabon" width="100%" colspan="2"><img src="/wtlgifs/web_transparent.gif" alt="Transparent Image" class="headerImg" title="Transparent Image" name="web_transparent" hspace="0" vspace="0" border="0" height="3" width="10"></td></tr></tbody></table>
+<a href="#top" onmouseover="window.status='Skip to top of page'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Skip to top of page'; return true" onblur="window.status=''; return true" class="skiplinks">Skip to top of page</a>
+<a href="/prod/bwskogrd.P_ViewTermGrde" onmouseover="window.status='Select another Term';  return true" onmouseout="window.status='';  return true" onfocus="window.status='Select another Term';  return true" onblur="window.status='';  return true">Select another Term</a>
+<p>&nbsp;
+</p></div>
+<div class="footerbeforediv">
+
+</div>
+<div class="footerlinksdiv">
+<span class="pagefooterlinks">
+<map name="Main_Menu_Links_F" title="Main Menu Links">
+<p>
+<a href="#skip_Main_Menu_Links_F" onmouseover="window.status='Skip Main Menu Links'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Skip Main Menu Links'; return true" onblur="window.status=''; return true" class="skiplinks">Skip Main Menu Links</a>
+</p><p>[ <a href="/prod/twbkwbis.P_GenMenu?name=bmenu.P_GenMnu" onmouseover="window.status='New Personal Information'; return true" onmouseout="window.status=''; return true" onfocus="window.status='New Personal Information'; return true" onblur="window.status=''; return true">Personal Information</a>
+ | <a href="/prod/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu" onmouseover="window.status='Students'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Students'; return true" onblur="window.status=''; return true">Student Services</a>
+ | <a href="/prod/twbkwbis.P_GenMenu?name=bmenu.P_BsacMnu" onmouseover="window.status='Student Awards and Financial Aid'; return true" onmouseout="window.status=''; return true" onfocus="window.status='Student Awards and Financial Aid'; return true" onblur="window.status=''; return true">Student Awards and Financial Aid</a>
+ ]
+
+
+<a name="skip_Main_Menu_Links_F"></a>
+</p></map></span></div>
+<div class="footerafterdiv">
+
+</div>
+<div class="globalafterdiv">
+
+</div>
+<div class="globalfooterdiv">
+
+</div>
+<div class="pagefooterdiv">
+<span class="releasetext">Release: 8.7.1</span>
+</div>
+<div class="poweredbydiv">
+</div>
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+<div class="div4"></div>
+<div class="div5"></div>
+<div class="div6"></div>
+<div class="banner_copyright"> <br><h5>© 2022 Ellucian Company L.P. and its affiliates.<br></h5></div>
+
+
+</body>

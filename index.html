@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leto's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/leto-koker/">LINKEDIN</a></li>
+                    <li><a href="files/LetoKokerResume.pdf" download="LetoKokerResume" class="scroll">RESUME</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="https://github.com/LMKoker/myPortfolio">PORTFOLIO</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1> Leto Koker's Portfolio</h1>
+        <p>Welcome to my portfolio hosted on Github, you should be able to find out
+            anything you need to know about me here!
+        </p>
+
+    </div>
+
+    </section>
+<!----About Me-->
+    <section class="about" id="about">
+        <h1>About Me</h1>
+        <p>Hey there! I'm Leto Koker, a passionate Front End Web Developer with 
+            a keen eye for design and a knack for crafting engaging user experiences. 
+            With 8 years of experience in coding, I've had the privilege of 
+            working on a diverse range of projects, from simple landing pages to 
+            complex web applications.</p>
+
+           <div class="row">
+                <div class="about-col">
+                    <h3>Coding</h3>
+                    <p>I have experience with HTML, CSS, JS, 
+                        Python & Delphi and I'm open to learning more</p>
+                </div>
+                <div class="about-col">
+                    <h3>Wordpress</h3>
+                    <p>I've been trained to setup and build Wordpress websites.</p>
+                </div>
+                <div class="about-col">
+                    <h3>Digital Marketing</h3>
+                    <p>I have been trained on SEO and Digital Marketing</p>
+                </div>
+           </div>
+
+    </section>
+    
+    <!----Placeholder----->
+
+    <section class="pictures" id="projects">
+        <h1>Some of My Work</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Donec nec elit</p>
+
+        <div class="row">
+            <div class="pic-site">
+                <img src="images/wastewiseSite.png">
+                <div class="layer">
+                    <h3>ME</h3>
+                </div>
+            </div>
+            <div class="pic-site">
+                <img src="images/playforeverSite.png">
+                <div class="layer">
+                    <h3>ME</h3>
+                </div>
+            </div>
+            <div class="pic-site">
+                <img src="images/wastewiseCreate.png">
+                <div class="layer">
+                    <h3>ME</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----JavaScript for Toggle Menu----->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+</html>
