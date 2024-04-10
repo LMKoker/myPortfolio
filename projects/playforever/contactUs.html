@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="logo">
+        <a href=""><img src="images/LOGO.png"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PROGRAMS</a></li>
+            <li><a href="">PARTNERSHIP</a></li>
+            <li><a href="" class="active">CONTACT</a></li>
+            <li><a href=""class="update">GET UPDATES</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <img src="images/CONTACTHEADING.png">
+    </div>
+    
+    <div class="info">
+        <div class="contact">
+            <h3>Shoot us a message to get in touch! We'll get back<br>
+                to you within 3-5 business days.</h3>
+            
+            <div class="container">
+                <form action="action_page.php">
+            
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email"><br>
+            
+            
+                <label for="subject">Subject</label><br>
+                <select id="subject" name="subject">
+                    <option value="partnership">Partnership</option>
+                    <option value="other">Other</option>
+                </select><br>
+            
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" style="height:200px"></textarea><br>
+            
+                <input type="submit" value="SEND">
+            
+                </form>
+            </div>
+        </div>
+
+        <div class="emlist">
+            <img src="images/arrows.png">
+            <img src="images/arrows.png">
+                <div class="emform">
+                    <form action="action_page.php">
+                        <p>Stay updated on current events<br>
+                        and get notified of any future programs by signing<br>
+                        up for our newsletter!</p>
+                        <input type="email" id="emlist" name="emlist" placeholder="Email"><br>
+                        <input type="submit" value="SIGN UP">
+                    </form>
+                </div>
+                
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <img src="images/FOOTER.png">
+    </div>
+        
+</body>
+</html>

@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background: #000;
+    height: 73px;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding: 0;
+    margin: 0 0 0 356px;
+    list-style: none;
+}
+li {
+    float: left;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+nav a{
+    width: 200px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border-style: none solid;
+    border-color: #fec547;
+    border-width: 1px;
+
+}
+
+nav a:hover{
+    background-color: #616161;
+}
+
+.active{
+    background: #616161;
+    transition: 0.5s;
+}
+
+.update{
+    background: #fec547;
+    color: #000;
+}
+
+.header {
+    background-image: url("images/background.png");
+    height: 726px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.contact {
+    width: 50%;
+    float: left;
+    height: 800px;
+    background: #fec547;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact h3{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.emlist {
+    width: 50%;
+    float: left;
+    height: 800px;
+    text-align: left;
+    background: #fec547;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.emlist img{
+    padding-top: 30px;
+}
+
+.container {
+    padding-left: 30px;
+}
+
+input[type=text], #email{
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.container input[type=submit] {
+    display: block;
+    width: 10%;
+    color: #fff;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #000;
+    margin-top: 20px;
+}
+
+select {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.container textarea {
+    width: 100%;
+    resize: horizontal;
+}
+
+.container label{
+    margin-top: 20px;
+}
+
+#message {
+    width: 45%;
+}
+
+.info {
+    background: #fec547;
+}
+
+.info h3{
+    margin-top: 0;
+}
+
+
+.footer img{
+    width: 100%;
+}
+
+.emform {
+    background: #ffdc8e;
+    width: 454px;
+    border: solid;
+    border-color: #ffedc4;
+    margin-top: 35px;
+}
+
+.emform p{
+    background-color: #fec547;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.emform input[type=email] {
+    width: 360px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.emform input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    color: #fff;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #000;
+}
